@@ -18,6 +18,5 @@ def main():
 		
 		
 def add(num1,num2):
-	ans=num1+num2
-	print("Your answer is"+ans)
+	print(int(num1)+int(num2))
 main()
