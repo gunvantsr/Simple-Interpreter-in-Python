@@ -6,6 +6,7 @@ Date: 20 August 2016
 Reference: Google ;)
 Guide: Mr.Deshpande G.S.
 """"
+#Commits by Gunvant Sarpate
 import sys
 def main():
 	#input taken from user as list
@@ -14,7 +15,6 @@ def main():
 		str(x) for x in input().split()
 		]
 	n=len(problem)
-	#print(n)
 	
 	#Module by Makrand Bhale.
 	#sorting integers from list
@@ -28,11 +28,9 @@ def main():
 	#Storing values from last index of list
 	num1=(numbers[0])
 	num2=(numbers[1])
+
 	
-	#finding keywords from list
-	
-	
-	# changes made by Makrand
+	# Commits by Gunvant & Akshay
 	
 	if "add" in problem:
 		add(num1,num2)
@@ -45,6 +43,7 @@ def main():
 	else:
 		print ("Error, Sorry we are working on it")
 		
+#Commits by Gunvant & Akshay		
 def add(num1,num2):
 	print(int(num1)+int(num2))
 def sub(num1,num2):
